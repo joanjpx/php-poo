@@ -1,0 +1,14 @@
+{
+    "name": "joanjpx/php-poo",
+    "description": "Testing Access Modifiers on Class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joan P. Alvarado",
+            "email": "joansyn.s@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
