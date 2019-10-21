@@ -1,5 +1,4 @@
 <?php
-
 // Accesing Class Attributes through methods (Getters y Setters)
 Class Vehiculo
 {
@@ -17,14 +16,3 @@ Class Vehiculo
 		return $this->$attribute;
 	}
 }
-
-//Accesing PRIVATE 
-$instance = new Vehiculo();
-$attr = "modelo";
-echo "<pre>";
-echo $instance->getAttribute($attr);
-
-
-//Accesing PRIVATE 
-echo "<pre>";
-echo $instance->ruedas;
